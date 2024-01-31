@@ -10,7 +10,7 @@
 https://github.com/zulip/aioapns/archive/2d69284481d328bd3e4168c631d75a38268eddb9.zip#egg=aioapns==3.1+git \
     --hash=sha256:e8ffed2c251b3383c75c08a538fb04392480ac19f97887ff8f113fe4a45cf96c
     # via -r requirements/common.in
-aiohttp==3.9.1 \
+aiohttp==3.9.2 \
     --hash=sha256:02ab6006ec3c3463b528374c4cdce86434e7b89ad355e7bf29e2f16b46c7dd6f \
     --hash=sha256:04fa38875e53eb7e354ece1607b1d2fdee2d175ea4e4d745f6ec9f751fe20c7c \
     --hash=sha256:0b0a6a36ed7e164c6df1e18ee47afbd1990ce47cb428739d6c99aaabfaf1b3af \
