@@ -10,7 +10,7 @@
 https://github.com/zulip/aioapns/archive/2d69284481d328bd3e4168c631d75a38268eddb9.zip#egg=aioapns==3.1+git \
     --hash=sha256:e8ffed2c251b3383c75c08a538fb04392480ac19f97887ff8f113fe4a45cf96c
     # via -r requirements/common.in
-aiohttp==3.9.1 \
+aiohttp==3.9.4 \
     --hash=sha256:02ab6006ec3c3463b528374c4cdce86434e7b89ad355e7bf29e2f16b46c7dd6f \
     --hash=sha256:04fa38875e53eb7e354ece1607b1d2fdee2d175ea4e4d745f6ec9f751fe20c7c \
     --hash=sha256:0b0a6a36ed7e164c6df1e18ee47afbd1990ce47cb428739d6c99aaabfaf1b3af \
@@ -500,7 +500,7 @@ coverage==7.3.2 \
     --hash=sha256:fa28e909776dc69efb6ed975a63691bc8172b64ff357e663a1bb06ff3c9b589a \
     --hash=sha256:fe494faa90ce6381770746077243231e0b83ff3f17069d748f645617cefe19d4
     # via -r requirements/dev.in
-cryptography==41.0.7 \
+cryptography==42.0.4 \
     --hash=sha256:079b85658ea2f59c4f43b70f8119a52414cdb7be34da5d019a77bf96d473b960 \
     --hash=sha256:09616eeaef406f99046553b8a40fbf8b1e70795a91885ba4c96a70793de5504a \
     --hash=sha256:13f93ce9bea8016c253b34afc6bd6a75993e5c40672ed5405a9c832f0d4a00bc \
@@ -653,7 +653,7 @@ django-two-factor-auth[call,phonenumberslite,sms]==1.15.5 \
     --hash=sha256:42fc95a250380a123faec301d350eab588c165af83d5c38840c1cc13f3aac746 \
     --hash=sha256:87510ccdbf6053ba80aa217367fa122ff4cecd04c0afb8becbb2c96655057616
     # via -r requirements/common.in
-dnspython==2.4.2 \
+dnspython==2.6.1 \
     --hash=sha256:57c6fbaaeaaf39c891292012060beb141791735dbb4004798328fc2c467402d8 \
     --hash=sha256:8dcfae8c7460a2f84b4072e26f1c9f4101ca20c071649cb7c34e8b6a93d58984
     # via pymongo
@@ -1002,7 +1002,7 @@ hyperlink==21.0.0 \
     --hash=sha256:427af957daa58bc909471c6c40f74c5450fa123dd093fc53efd2e91d2705a56b \
     --hash=sha256:e6b14c37ecb73e89c77d78cdb4c2cc8f3fb59a885c5b3f819ff4ed80f25af1b4
     # via twisted
-idna==3.6 \
+idna==3.7 \
     --hash=sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca \
     --hash=sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f
     # via
@@ -1062,7 +1062,7 @@ jedi==0.19.1 \
     --hash=sha256:cf0496f3651bc65d7174ac1b7d043eff454892c708a87d1b683e57b569927ffd \
     --hash=sha256:e983c654fe5c02867aef4cdfce5a2fbb4a50adc0af145f70504238f18ef5e7e0
     # via ipython
-jinja2==3.1.2 \
+jinja2==3.1.3 \
     --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852 \
     --hash=sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
     # via
@@ -2038,7 +2038,7 @@ pyjwt==2.8.0 \
     #   aioapns
     #   social-auth-core
     #   twilio
-pymongo==4.6.1 \
+pymongo==4.6.3 \
     --hash=sha256:00c199e1c593e2c8b033136d7a08f0c376452bac8a896c923fcd6f419e07bdd2 \
     --hash=sha256:010bc9aa90fd06e5cc52c8fac2c2fd4ef1b5f990d9638548dde178005770a5e8 \
     --hash=sha256:026a24a36394dc8930cbcb1d19d5eb35205ef3c838a7e619e04bd170713972e7 \
@@ -2752,7 +2752,7 @@ sqlalchemy2-stubs==0.0.2a37 \
     --hash=sha256:43067e3f67bd16a7fb2b574ee696f7ed53bf60f3e73329cf234a7b4dd4d3816a \
     --hash=sha256:619bd131f8ad7eeb88af8dfabb0e6ba07593db91868cdc49674d2cd4ca61e986
     # via sqlalchemy
-sqlparse==0.4.4 \
+sqlparse==0.5.0 \
     --hash=sha256:5430a4fe2ac7d0f93e66f1efc6e1338a41884b7ddf2a350cedd20ccc4d9d28f3 \
     --hash=sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c
     # via django
@@ -2884,7 +2884,7 @@ twilio==8.10.3 \
     --hash=sha256:84aae4451386e01a47ac81bb7301d7170e6519bd6e3c3a11a292de77c2dccda2 \
     --hash=sha256:d23e9e952e38adca99da134b27bf7472cf2f850a0ab0eade7f5b6ed34bc04266
     # via django-two-factor-auth
-twisted==22.10.0 \
+twisted==23.10.0rc1 \
     --hash=sha256:32acbd40a94f5f46e7b42c109bfae2b302250945561783a8b7a059048f2d4d31 \
     --hash=sha256:86c55f712cc5ab6f6d64e02503352464f0400f66d4f079096d744080afcccbd0
     # via scrapy
