@@ -1543,7 +1543,7 @@ pyjwt==2.8.0 \
     #   aioapns
     #   social-auth-core
     #   twilio
-pymongo==4.6.1 \
+pymongo==4.6.3 \
     --hash=sha256:00c199e1c593e2c8b033136d7a08f0c376452bac8a896c923fcd6f419e07bdd2 \
     --hash=sha256:010bc9aa90fd06e5cc52c8fac2c2fd4ef1b5f990d9638548dde178005770a5e8 \
     --hash=sha256:026a24a36394dc8930cbcb1d19d5eb35205ef3c838a7e619e04bd170713972e7 \
