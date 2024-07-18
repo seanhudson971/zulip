@@ -3282,7 +3282,7 @@ pip==20.3.4 \
     #   -r requirements/pip.in
     #   pip-tools
     #   zulip-bots
-setuptools==69.0.2 \
+setuptools==70.0.0 \
     --hash=sha256:1e8fdff6797d3865f37397be788a4e3cba233608e9b509382a2777d25ebde7f2 \
     --hash=sha256:735896e78a4742605974de002ac60562d286fa8051a7e2299445e8e8fbb01aa6
     # via
