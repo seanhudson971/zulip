@@ -346,7 +346,7 @@ click==8.1.7 \
     --hash=sha256:ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28 \
     --hash=sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de
     # via zulip
-cryptography==41.0.7 \
+cryptography==43.0.1 \
     --hash=sha256:079b85658ea2f59c4f43b70f8119a52414cdb7be34da5d019a77bf96d473b960 \
     --hash=sha256:09616eeaef406f99046553b8a40fbf8b1e70795a91885ba4c96a70793de5504a \
     --hash=sha256:13f93ce9bea8016c253b34afc6bd6a75993e5c40672ed5405a9c832f0d4a00bc \
@@ -422,7 +422,7 @@ distro==1.8.0 \
     --hash=sha256:02e111d1dc6a50abb8eed6bf31c3e48ed8b0830d1ea2a1b78c61765c2513fdd8 \
     --hash=sha256:99522ca3e365cac527b44bde033f64c6945d90eb9f769703caaec52b09bbd3ff
     # via zulip
-django[argon2]==4.2.8 \
+django==4.2.16 \
     --hash=sha256:6cb5dcea9e3d12c47834d32156b8841f533a4493c688e2718cafd51aa430ba6d \
     --hash=sha256:d69d5e36cc5d9f4eb4872be36c622878afcdce94062716cf3e25bcedcb168b62
     # via
