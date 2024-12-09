@@ -422,7 +422,7 @@ distro==1.8.0 \
     --hash=sha256:02e111d1dc6a50abb8eed6bf31c3e48ed8b0830d1ea2a1b78c61765c2513fdd8 \
     --hash=sha256:99522ca3e365cac527b44bde033f64c6945d90eb9f769703caaec52b09bbd3ff
     # via zulip
-django[argon2]==4.2.8 \
+django==4.2.17 \
     --hash=sha256:6cb5dcea9e3d12c47834d32156b8841f533a4493c688e2718cafd51aa430ba6d \
     --hash=sha256:d69d5e36cc5d9f4eb4872be36c622878afcdce94062716cf3e25bcedcb168b62
     # via
