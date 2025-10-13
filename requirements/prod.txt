@@ -1652,7 +1652,7 @@ python-dateutil==2.8.2 \
 python-gcm==0.4 \
     --hash=sha256:511c35fc5ae829f7fc3cbdb45c4ec3fda02f85e4fae039864efe82682ccb9c18
     # via -r requirements/common.in
-python-ldap==3.4.4 \
+python-ldap==3.4.5 \
     --hash=sha256:7edb0accec4e037797705f3a05cbf36a9fde50d08c8f67f2aef99a2628fab828
     # via
     #   -r requirements/common.in
